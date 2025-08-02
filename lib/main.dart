@@ -33,10 +33,10 @@ class MainApp extends StatelessWidget {
         appBarTheme:  AppBarTheme(
           iconTheme: IconThemeData(color: Colors.white),
           centerTitle: true,
-          color: Colors.blue,
+          color: Color.fromARGB(255, 33, 212, 243),
           titleTextStyle: TextStyle(color: Colors.white, fontWeight: FontWeight.w600, fontSize: 18)
         ),
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 33, 212, 243)),
         useMaterial3: true,),
       // theme: ThemeData,
       home: HomePage(),
